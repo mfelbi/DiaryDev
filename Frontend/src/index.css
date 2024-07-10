@@ -1,0 +1,146 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container { 
+  display: flex; /*layar*/
+  height: 100vh;
+  width: 100%; 
+}
+
+.sidebar {
+  width: 170px; /* sidebar */
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 10px 0;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+}
+
+.sidebar ul li a:hover {
+  color: #007bff;
+}
+
+.sidebar ul li a svg {
+  margin-right: 10px;
+}
+
+.main-content-wrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 170px); /*  lebar main content wrapper */
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+  max-width: 100%; 
+  margin: 0 auto; /* Tengah halaman */
+  width: 100%; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  border-radius: 8px; 
+}
+
+.navbar {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; 
+}
+
+.footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  position: relative;
+  width: 100%;
+  height: 43px; 
+}
+
+.team {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.team-member {
+  flex: 1 1 calc(33% - 20px);
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.team-member h3 {
+  margin-top: 0;
+}
+
+.team-member p {
+  margin-bottom: 0;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.home-content {
+  padding: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+  padding: 10px;
+}
+/*Sidebar tapi gajadi */
+.custom-sidebar {
+  background-color: #ffffff; 
+  color: #ffffff; 
+}
+
+.custom-sidebar a {
+  color: #fffbfb; 
+}
+
+.custom-sidebar a:hover {
+  color: #007bff; 
+}

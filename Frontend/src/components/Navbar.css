@@ -1,0 +1,84 @@
+.navbar-nav .nav-item .nav-link {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-nav .nav-item .nav-link svg {
+    margin-right: 5px;
+  }
+  
+  
+  .custom-navbar {
+    background-color: #ffffff !important; 
+    color: rgba(65, 173, 61, 0.556) !important;
+    height: 40px; /*tinggi navbar */
+    display: flex;
+  align-items: center;
+    position: fixed; 
+    z-index: 1000;
+  }
+  .custom-navbar .nav-link {
+    color: rgb(0, 0, 0) !important;
+  }
+  
+  .navbar-logo {
+    height: 120px; /* Atur tinggi logo */
+    position: relative; /* Mengatur posisi dengan top, left, right, bottom */
+  }
+  
+  /* pengaturan posisi */
+  .navbar-logo.bottom {
+    top: 30px; 
+  }
+  
+  .navbar-logo.top {
+    top: 25px; 
+  }
+  
+  .navbar-logo.right {
+    left: -25px; 
+  }
+  
+  .navbar-logo.left {
+    left: 20px; 
+  
+  }
+  .search-bar{
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    width: 300px;
+    padding: 5px 10px;
+    border: 2px solid #007bff;
+    border-radius: 30px;
+    outline: none;
+  }
+  
+  .search-button {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #000000;
+  }
+
+  .search-bar-right {
+    margin-left: 50px; 
+  }
+  
+  .search-bar-left {
+    margin-right: 10px; 
+  }
+
+  .search-bar-top {
+    margin-top: 3px; 
+  }
+  
+  .search-bar-bottom {
+    margin-bottom: -10px; 
+  }

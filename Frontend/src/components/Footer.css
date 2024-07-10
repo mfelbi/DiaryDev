@@ -1,0 +1,34 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .footer a {
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  .footer a:hover {
+    text-decoration: underline;
+  }
+
+  .footer {
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    position: relative;
+    width: 100%;
+  }
+  .custom-footer {
+    background-color: #0000ff00 !important; 
+    color: rgb(0, 0, 0) !important;
+    text-align: center;
+    padding: 10px 20px;
+    width: 100%;
+    position: fixed; /* Buat footer tetap diam */
+  bottom: 0;
+  z-index: 1000;
+  }
+  .custom-footer a {
+    color: rgb(10, 10, 10) !important;
+  }
+  
